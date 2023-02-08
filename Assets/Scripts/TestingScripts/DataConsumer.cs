@@ -17,7 +17,7 @@ public class DataConsumer : MonoBehaviour
             if (ConsumptionTargets == null || ConsumptionTargets.Count == 0) return;
             if (ConsumptionTargets.Count <= Index)
             {
-                Index = Index % (ConsumptionTargets.Count - 1);
+                Index = 0;
             }
             Debug.Log($"target's float : {ConsumptionTargets[Index].TestFloat}");
             Index++;

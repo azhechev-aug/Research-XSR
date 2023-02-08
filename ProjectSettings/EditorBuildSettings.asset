@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/XSR/XSR_1.unity
+    guid: 956653a296e704046a679e2461b9f6e1
+  - enabled: 1
+    path: Assets/Scenes/XSR/XSR_2.unity
+    guid: 85debe6e9815c1a4a9be35880ae379fb
+  - enabled: 1
+    path: Assets/Scenes/XSR/XSR_3.unity
+    guid: c6e7bfb65ad71ed47984ca5f4f83af9b
   m_configObjects: {}
